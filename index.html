@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ragavijayam</title>
+<style>
+  :root {
+    --ink: #1a1a2e; --muted: #6b6b80; --line: #d8d8e4;
+    --bg: #fdfcf8; --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--ink);
+         margin: 0; padding: 40px 16px 60px; line-height: 1.5; }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header h1 { font-size: 30px; margin: 0 0 4px; letter-spacing: 0.5px; }
+  header p { color: var(--muted); font-size: 14.5px; margin: 0 0 34px; }
+  .song { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--accent, #6d28d9);
+          border-radius: 10px; padding: 18px 20px 16px; margin-bottom: 18px; }
+  .song h2 { font-size: 20px; margin: 0 0 2px; }
+  .song .meta { font-size: 13.5px; color: var(--muted); margin-bottom: 12px; }
+  .arohana { font-family: 'Courier New', monospace; font-weight: 700; font-size: 15px;
+             letter-spacing: 2px; color: var(--accent, #6d28d9); margin-bottom: 12px; }
+  .arohana small { font-family: sans-serif; font-weight: normal; font-size: 10.5px;
+                   letter-spacing: 0.5px; color: var(--muted); display: block; margin-top: 2px; }
+  .links { font-family: sans-serif; font-size: 13.5px; }
+  .links a { display: inline-block; color: var(--accent, #6d28d9); text-decoration: none;
+             border: 1px solid var(--line); border-radius: 7px; padding: 5px 12px; margin-right: 8px; }
+  .links a:hover { background: #f6f5ef; }
+  .footer { margin-top: 34px; font-size: 12px; color: var(--muted);
+            border-top: 1px solid var(--line); padding-top: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Ragavijayam</h1>
+  <p>Swara–sahitya sheets for repertoire in progress. The teacher's rendition is always the final authority on phrasing and gamakas.</p>
+</header>
+
+<div class="song" style="--accent:#6d28d9;">
+  <h2>Sharanu Sharanu Ganapati</h2>
+  <div class="meta">Raga Hamsadhwani &middot; Adi tala, tishra gati &middot; Kannada &middot; Sa = A</div>
+  <div class="arohana">S&nbsp;R₂&nbsp;G₃&nbsp;P&nbsp;N₃&nbsp;Ṡ<small>arohana</small></div>
+  <div class="links">
+    <a href="sharanu-sharanu-ganapati/swara-sheet.html">Swara sheet</a>
+  </div>
+</div>
+
+<div class="song" style="--accent:#0e7490;">
+  <h2>Varaveena</h2>
+  <div class="meta">Raga Mohanam &middot; Rupaka tala &middot; Sanskrit geetham &middot; Sa = C</div>
+  <div class="arohana">S&nbsp;R₂&nbsp;G₃&nbsp;P&nbsp;D₂&nbsp;Ṡ<small>arohana</small></div>
+  <div class="links">
+    <a href="varaveena/swara-sheet.html">Swara sheet</a>
+  </div>
+</div>
+
+<div class="song" style="--accent:#9d174d;">
+  <h2>Endaro Mahanubhavulu</h2>
+  <div class="meta">Raga Sri &middot; Adi tala, chatusra gati &middot; Telugu &middot; Pancharatna kriti no. 5 &middot; Sa = C</div>
+  <div class="arohana">S&nbsp;R₂&nbsp;M₁&nbsp;P&nbsp;N₂&nbsp;Ṡ<small>arohana</small></div>
+  <div class="links">
+    <a href="endaro-mahanubhavulu/swara-sheet.html">Swara sheet</a>
+  </div>
+</div>
+
+<div class="footer">Deployed with GitHub Pages &middot; each song folder holds its swara sheet.</div>
+
+</div>
+</body>
+</html>
